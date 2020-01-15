@@ -8,10 +8,10 @@ module.exports = {
 	
     entry: {
         app:[
-            'webpack-hot-middleware/client',
+            'webpack-hot-middleware/client?reload=true',
             'react-hot-loader/patch',
             //'babel-polyfill',
-            path.resolve(__dirname,'./index.js')
+            path.resolve(__dirname,'./src/app.js')
         ], 
         //app2:['webpack-hot-middleware/client',path.resolve(__dirname,'./app2.js')],
         vendor:['react','react-dom','react-router-dom']
