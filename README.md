@@ -10,7 +10,7 @@
     # 开启本地服务http://localhost:3000即可运行
     npm start
 ## 组件介绍
-  - 将想要瀑布流展示的视图以data=[<div><JSX/></div>,...]（<JSX/>指任何符合规范的组件都行)的格式以props的形式传递给<Waterfall data={data}/>组件即可
+  - 将想要瀑布流展示的视图以data=[`<div><JSX/></div>`,...]（`<JSX/>`指任何符合规范的组件都行)的格式以props的形式传递给`<Waterfall data={data}/>`组件即可
   - 支持列数切换功能，可展示6列/4列/2列
   - 支持加载功能
 ## 组件预览
